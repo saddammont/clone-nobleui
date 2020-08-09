@@ -1,0 +1,25 @@
+.side-bar
+    {
+        width: 240px;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #0c1427;
+    }
+.logo
+{
+    background-color: #0c1427;
+    width: 190px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    justify-content: space-between;
+    border-bottom: 1px solid #172340;
+}
+.list-contenido
+    {
+        max-height: calc(100% - 60px);
+        padding: 25px 25px 50px 25px;
+    }

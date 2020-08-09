@@ -1,0 +1,11 @@
+.nav-bar
+    {
+    display: flex;
+    width: 100%;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    position: fixed;
+    background-color: #0c1427;
+    left: 240px;
+    }
