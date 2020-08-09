@@ -8,6 +8,8 @@
     background-color: #0c1427;
     justify-content: space-between;
     box-sizing: border-box;
+    border: 1px solid #18233e;
+    border-left: none;
     
     }
 
