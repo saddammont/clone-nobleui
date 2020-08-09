@@ -1,11 +1,46 @@
 .nav-bar
     {
     display: flex;
-    width: 100%;
-    
+    width: 100%; 
+    height: 60px;  
     padding-left: 25px;
     padding-right: 25px;
     position: fixed;
     background-color: #0c1427;
     left: 240px;
+    
+    }
+.nav-bar form
+    {
+     display: flex;
+    width: 60%;
+
+    }
+.nav-bar ul
+    {
+        display: flex;
+        
+    }
+.nav-bar li
+    {
+        
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        min-width: 30px;
+        
+        display: flex;
+    
+    align-items: center;
+    }
+nav form input
+    {
+        background-color: transparent;
+        border: none;
+    }
+    nav form button
+    {
+        background-color: transparent;
+        border: transparent;
+        color: white;
     }
