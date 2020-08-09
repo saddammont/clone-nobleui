@@ -10,13 +10,14 @@
     box-sizing: border-box;
     border: 1px solid #18233e;
     border-left: none;
+    transition: width  0.5s;
     
     }
 
 .nav-bar form
     {
      display: flex;
-    
+    width: 100%;
 
     }
 .nav-bar ul
@@ -36,14 +37,21 @@
     
     align-items: center;
     }
+
 nav form input
     {
         background-color: transparent;
         border: none;
+        display: flex;
+        color: gray;
+    cursor: pointer;
     }
-    nav form button
-    {
-        background-color: transparent;
-        border: transparent;
-        color: white;
-    }
+#nav-search
+{
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+    
+

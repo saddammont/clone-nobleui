@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/chart1.css">
     <link rel="stylesheet" href="css/side-bar.css">
       <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -48,8 +49,8 @@
     
     <nav class="nav-bar">
         <form action="">
-            <button type="submit"><i class="material-icons">search</i></button>
-            <input type="text" placeholder="Search here...">
+            <input type="submit" value="search" class="material-icons">
+            <input type="search" placeholder="Search here..." id="nav-search">
         </form>
         <ul>
         <li>1</li>
@@ -57,7 +58,8 @@
         <li>3</li>
         <li>4</li>
         <li>5</li></ul>
-    </nav>   
+    </nav> 
+    <canvas id="myChart" width="100" height="100"></canvas>  
 </div>
 
 
@@ -66,8 +68,8 @@
 
 
 
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+<script src="js/myFchart.js"></script>
 <script src="js/sidebar.js"></script>
 </body>
 </html>
