@@ -1,0 +1,93 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 70px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #0c1427; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+     /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .side-content ul
+    {
+        margin: 0;
+        padding: 0;
+
+    }
+.side-content li
+    {
+        list-style: none;
+    }
+  
+  .side-header
+  {
+      border: 1px solid #18233e;
+      max-height: 60px;
+      box-sizing: border-box;
+
+  }
+  .side-content
+    {
+        box-sizing: border-box;
+        padding: 25px 25px 50px 25px;
+        border: 1px solid #18233e;
+        border-top: none    ;
+    }
+  .logo-menu
+  {
+    max-height: 60px;
+      width: 70px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+   .logo-menu  i
+   {
+       color: gray;
+       font-size: 2em;
+       margin: 0.5em;
+       cursor: pointer;
+   }
+  .logo-menu a
+  {
+      display: none;
+      padding: 0px 2em 0px 1em;
+      opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #eef4ff;
+    text-decoration: none;
+  }
+
+#close-btn
+  {
+    display: none;
+    cursor: pointer;
+    align-items: center;
+    font-size: 36px;
+    margin-left: 50px;
+  } 
+  
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 0px;
+    margin-left: 70px;
+    
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
