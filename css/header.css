@@ -1,19 +1,20 @@
 .nav-bar
     {
     display: flex;
-    width: 100%; 
+    width: 1193px; 
     height: 60px;  
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0 25px;     
     position: fixed;
     background-color: #0c1427;
-    left: 240px;
+    justify-content: space-between;
+    box-sizing: border-box;
     
     }
+
 .nav-bar form
     {
      display: flex;
-    width: 60%;
+    
 
     }
 .nav-bar ul
